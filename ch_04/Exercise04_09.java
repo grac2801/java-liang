@@ -1,6 +1,6 @@
 package ch_04;
 
-import javax.xml.soap.SAAJMetaFactory;
+//import javax.xml.soap.SAAJMetaFactory;
 import java.util.*;
 
 /**
@@ -10,7 +10,8 @@ import java.util.*;
  * The Unicode for the character E is 69
  */
 public class Exercise04_09 {
-    public static void main(String[] args) {
+    @SuppressWarnings("resource")
+	public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a character: ");
         String s = in.next("[A-Za-z\\d]");
